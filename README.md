@@ -1,6 +1,5 @@
-- **Chargebee status/popup Document**
-- subscription_phase = '' | status = '' | payment_status = ''
-- **Author : Amogha, Gokul Krishnan**
+**Chargebee status/popup Document**
+**Author : Amogha, Gokul Krishnan**
 
 ---
 **Fields**
