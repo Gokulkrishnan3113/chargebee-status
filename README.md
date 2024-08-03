@@ -49,6 +49,8 @@ subscription_phase = 'in-trial' | status = 'yet to create' | payment_status = nu
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/0e7aaa26-0e85-46d5-b2e4-66676aadd1c5">
 
 ---
+[for subscription_phase = 'ready to subscribe' additional field named schedule_clicked is also checked]
+
 subscription_phase = 'ready to subscribe' | status = 'active' | payment_status = null  ==> no pop-up
 
 subscription_phase = 'ready to subscribe' | status = 'active' | payment_status = 'paid' | schedule_clicked = true ==> no pop-up
