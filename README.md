@@ -65,4 +65,8 @@ subscription_phase = 'ready to subscribe' | status = 'active' | payment_status =
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/799e496b-404e-4fa0-8f16-c9672945ad31">
 
 
+subscription_phase = 'ready to subscribe' | status = 'not paid' | payment_status = null or "paid" or "due"   ==> pt schedule pop-up
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/3f2e690d-337f-4699-b137-68c50d949fa3">
+
+
 
