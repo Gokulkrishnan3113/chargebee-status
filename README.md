@@ -20,7 +20,7 @@
 
 ---
 
-**Conditions on popups**
+# Conditions on popups
 
 subscription_phase = 'active' | status = 'active' | payment_status = null  ==> no popup
 
