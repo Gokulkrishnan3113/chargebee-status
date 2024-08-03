@@ -1,7 +1,5 @@
 **Chargebee status/popup Document**
 
-**Author : Amogha, Gokul Krishnan**
-
 ---
 **Fields**
   payment_status
