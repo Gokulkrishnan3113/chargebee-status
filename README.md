@@ -1,6 +1,6 @@
 # Chargebee status/pop-up Document
 
-# Fields
+# Fields Checked
 
   payment_status
   
