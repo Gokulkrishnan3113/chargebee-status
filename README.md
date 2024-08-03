@@ -1,6 +1,5 @@
 # Chargebee status/popup Document
 
----
 **Fields**
   payment_status
   subscription_phase
