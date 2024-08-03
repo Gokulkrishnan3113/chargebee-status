@@ -1,14 +1,22 @@
 # Chargebee status/popup Document
 
-**Fields**
-  payment_status
-  subscription_phase
-  status
+# Fields
 
-**Field value holders**
+  payment_status
+  
+  subscription_phase
+  
+  status
+  
+
+# Field value holders
+
   payment_status - [paid, due, null]
+  
   subscription_phase - [active, in-trial, ready to subscribe]
+  
   status - [active, not paid, subscription created, subscription created not paid, yet to create]
+  
 
 ---
 
