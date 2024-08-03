@@ -3,17 +3,19 @@ subscription_phase = '' | status = '' | payment_status = ''
 **Author : Amogha, Gokul Krishnan**
 
 ---
-Fields
+**Fields**
   payment_status
   subscription_phase
   status
 
-Field value holders
+**Field value holders**
   payment_status - [paid, due, null]
   subscription_phase - [active, in-trial, ready to subscribe]
   status - [active, not paid, subscription created, subscription created not paid, yet to create]
 
-Conditions on popups
+---
+
+**Conditions on popups**
 
 subscription_phase = 'active' | status = 'active' | payment_status = null  ==> no popup
 
@@ -23,12 +25,14 @@ subscription_phase = 'active' | status = 'active' | payment_status = 'due'  ==> 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/aa0f7594-e1a5-4c5b-aa29-c00b58364257">
 
 ---
+
 subscription_phase = 'in-trial' | status = 'subscription created' | payment_status = null  ==> no popup
 
 subscription_phase = 'in-trial' | status = 'subscription created' | payment_status = 'paid'  ==> no popup
 
 subscription_phase = 'in-trial' | status = 'subscription created' | payment_status = 'due'  ==> hard popup
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/aa0f7594-e1a5-4c5b-aa29-c00b58364257">
+[ps : the current logic neither sets the paymet_status not updates the status for **in-trial subscription created clients**]
 
 
 subscription_phase = 'in-trial' | status = 'subscription created not paid' | payment_status = null or 'paid' or 'due'  ==> hard popup
