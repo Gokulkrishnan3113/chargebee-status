@@ -22,7 +22,8 @@
 
 # Conditions on pop-ups
 
-  # active
+# subscription_phase = 'active'
+
 subscription_phase = 'active' | status = 'active' | payment_status = null  ==> no pop-up
 
 subscription_phase = 'active' | status = 'active' | payment_status = 'paid'  ==> no pop-up
@@ -31,6 +32,8 @@ subscription_phase = 'active' | status = 'active' | payment_status = 'due'  ==> 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/aa0f7594-e1a5-4c5b-aa29-c00b58364257">
 
 ---
+
+# subscription_phase = 'int-trial'
 
 subscription_phase = 'in-trial' | status = 'subscription created' | payment_status = null  ==> no pop-up
 
@@ -50,6 +53,9 @@ subscription_phase = 'in-trial' | status = 'yet to create' | payment_status = nu
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/0e7aaa26-0e85-46d5-b2e4-66676aadd1c5">
 
 ---
+
+# subscription_phase = 'ready to subscribe'
+
 [for subscription_phase = 'ready to subscribe' and status = 'active' additional field named schedule_clicked is also checked]
 
 subscription_phase = 'ready to subscribe' | status = 'active' | payment_status = null  ==> no pop-up
