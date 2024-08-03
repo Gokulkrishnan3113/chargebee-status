@@ -58,7 +58,11 @@ subscription_phase = 'ready to subscribe' | status = 'active' | payment_status =
 
 
 subscription_phase = 'ready to subscribe' | status = 'active' | payment_status = 'due' | schedule_clicked = true   ==> hard pop-up
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/aa0f7594-e1a5-4c5b-aa29-c00b58364257">
+
 
 subscription_phase = 'ready to subscribe' | status = 'active' | payment_status = 'due' | schedule_clicked = false   ==> pt schedule pop-up
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/799e496b-404e-4fa0-8f16-c9672945ad31">
+
 
 
