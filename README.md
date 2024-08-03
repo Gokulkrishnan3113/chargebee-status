@@ -33,7 +33,7 @@ subscription_phase = 'active' | status = 'active' | payment_status = 'due'  ==> 
 
 ---
 
-# subscription_phase = 'int-trial'
+# subscription_phase = 'in-trial'
 
 subscription_phase = 'in-trial' | status = 'subscription created' | payment_status = null  ==> no pop-up
 
