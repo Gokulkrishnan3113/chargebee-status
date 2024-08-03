@@ -45,7 +45,7 @@ subscription_phase = 'in-trial' | status = 'subscription created not paid' | pay
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/aa0f7594-e1a5-4c5b-aa29-c00b58364257">
 
 
-subscription_phase = 'in-trial' | status = 'yet to create' | payment_status = null or 'paid' or 'due'  ==> create account pop-up
+subscription_phase = 'in-trial' | status = 'yet to create' | payment_status = null or 'paid' or 'due'  ==> free-trial/create account pop-up
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/0e7aaa26-0e85-46d5-b2e4-66676aadd1c5">
 
 ---
@@ -65,7 +65,7 @@ subscription_phase = 'ready to subscribe' | status = 'active' | payment_status =
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/799e496b-404e-4fa0-8f16-c9672945ad31">
 
 
-subscription_phase = 'ready to subscribe' | status = 'not paid' | payment_status = null or "paid" or "due"   ==> pt schedule pop-up
+subscription_phase = 'ready to subscribe' | status = 'not paid' | payment_status = null or "paid" or "due"   ==> create account pop-up
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/3f2e690d-337f-4699-b137-68c50d949fa3">
 
 
