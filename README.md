@@ -42,7 +42,6 @@ subscription_phase = 'in-trial' | status = 'subscription created' | payment_stat
 subscription_phase = 'in-trial' | status = 'subscription created' | payment_status = 'due'  ==> hard pop-up
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/aa0f7594-e1a5-4c5b-aa29-c00b58364257">
 
-[ps : the current logic neither sets the paymet_status not updates the status for **IN-TRIAL SUBSCRIPTION CREATED CLIENTS**]
 
 
 
